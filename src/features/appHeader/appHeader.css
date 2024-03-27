@@ -1,0 +1,45 @@
+/* styles for header */
+
+.header {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  background-color: rgb(189, 226, 238);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  gap: 20px;
+}
+
+.header_btns {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header_user_info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box {
+    border: 3px solid lightseagreen;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 67px;
+    object-fit: contain;
+}
+

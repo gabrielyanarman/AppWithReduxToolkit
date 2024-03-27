@@ -1,0 +1,13 @@
+.myBtn {
+    padding: 10px 20px;
+    border: 2px solid lightseagreen;
+    border-radius: 3px;
+    background-color: white;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    background-color: lightseagreen;
+    color: white;
+}

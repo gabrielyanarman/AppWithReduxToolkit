@@ -1,0 +1,59 @@
+
+.todo_item {
+    position: relative;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.todo_item._c {
+    background-color: rgb(74, 226, 74);
+    border: 2px solid rgb(74, 226, 74);
+}
+
+.todo_item p {
+    width: calc(100% - 250px);
+    line-height: 2;
+}
+
+.todo_btns{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.todos_list_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todos_list_header_btns {
+    display: flex;
+    gap: 20px;
+}
+
+.todos_list_header_btns button:hover {
+    background-color: rgb(74, 226, 74);
+    border: 2px solid rgb(74, 226, 74);
+}
+
+.todos_list {
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todo_btns button:hover {
+    background-color: white;
+    color: black;
+}
